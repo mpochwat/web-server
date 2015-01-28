@@ -46,7 +46,7 @@ loop {
 	client.close
 }
 
-# Multi-threaded
+# Multi-threading option
 	#Thread.start(server.accept) do |client|
 	#	client.puts(Time.now.ctime)
 	#	client.puts "Closing conn"
